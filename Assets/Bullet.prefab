@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9129653187425788099}
   - component: {fileID: 5438302753856557671}
   - component: {fileID: 8550780792721805117}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,7 +156,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -180,4 +180,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f64cbb4fe1fcab44a71615068644fb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BulletScript
-  ImpulsePower: 10
+  impulsePower: 10
+  lifetime: 2
+  damage: 20
